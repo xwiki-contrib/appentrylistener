@@ -166,7 +166,7 @@ public abstract class AbstractAppEntryEventOccurredListener extends AbstractEven
     /**
      * Function called when an entry of the application (as filtered by {@link #isAppEntry(XWikiDocument, Event)}) was
      * deleted. All deletes that happen as part of a rename will not be notified on this function, but handled by the
-     * {@link #onAppEntryRenamed()} instead.
+     * {@link #onAppEntryRenamed(XWikiDocument, DocumentReference, DocumentRenamedEvent)} instead.
      * 
      * @param originalDocument the original document, before delete. Use only for read-only purposes.
      * @param event the original document deleted event, in case any context is needed.
