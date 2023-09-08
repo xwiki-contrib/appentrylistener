@@ -26,7 +26,7 @@
     <version>14.4</version>
   </parent>
   <artifactId>appentrylistener</artifactId>
-  <version>1.0-rc-1</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>App Entry Listener</name>
   <description>Abstract superclasses to build application entry events.</description>
@@ -38,7 +38,7 @@
     <connection>scm:git:git@github.com:xwiki-contrib/appentrylistener.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/appentrylistener.git</developerConnection>
     <url>https://github.com/xwiki-contrib/appentrylistener</url>
-    <tag>appentrylistener-1.0-rc-1</tag>
+    <tag>HEAD</tag>
   </scm>
   <developers>
     <developer>
